@@ -1,7 +1,7 @@
 var os = require('os');
 var OSTime = require('../modules/OSTime');
 
-function getWindowsinfo() {
+function getOSinfo() {
     var type = os.type(); 
     if(type === 'Darwin') {
         type = 'OSX';
